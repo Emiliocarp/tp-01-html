@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscripcion a cursos</title>
+</head>
+<body>
+
+    <h1>Formulario de inscripcion</h1>
+
+    <p>Completa tus datos para inscribirte a un curso.</p>
+
+    <form action="#" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="correo">Correo electronico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <br><br>
+
+        <label for="curso">Curso:</label>
+
+        <select id="curso" name="curso" required>
+            <option value="">Elegir curso</option>
+
+            <optgroup label="Diseño">
+                <option value="grafico">Diseño grafico</option>
+                <option value="web">Diseño web</option>
+            </optgroup>
+
+            <optgroup label="Tecnologia">
+                <option value="html">HTML5</option>
+                <option value="impresion3d">Impresion 3D</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <p>Modalidad:</p>
+
+        <input type="radio" id="presencial" name="modalidad" value="presencial" required>
+        <label for="presencial">Presencial</label>
+
+        <input type="radio" id="virtual" name="modalidad" value="virtual">
+        <label for="virtual">Virtual</label>
+
+        <br><br>
+
+        <p>Conocimientos previos:</p>
+
+        <input type="checkbox" id="html" name="conocimientos" value="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="diseno" name="conocimientos" value="diseno">
+        <label for="diseno">Diseño</label>
+
+        <input type="checkbox" id="ninguno" name="conocimientos" value="ninguno">
+        <label for="ninguno">Ninguno</label>
+
+        <br><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="acepto" name="acepto" required>
+        <label for="acepto">Acepto las condiciones.</label>
+
+        <br><br>
+
+        <input type="submit" value="Inscribirme">
+        <input type="reset" value="Borrar">
+
+    </form>
+
+</body>
+</html>
