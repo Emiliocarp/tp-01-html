@@ -1,4 +1,4 @@
-/* CONFIGURACION GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -86,7 +86,7 @@ li {
     border-left: 5px solid #963f2d;
 }
 
-/* ENLACES */
+
 a {
     transition: color 0.3s;
 }
