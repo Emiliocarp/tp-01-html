@@ -1,0 +1,132 @@
+/* CONFIGURACION GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #151515;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #202020;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid #39ff14;
+}
+
+h1 {
+    color: #39ff14;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cccccc;
+}
+
+/* MENU DE NAVEGACION */
+nav {
+    background-color: #292929;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #39ff14;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    background-color: #222222;
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #383838;
+    border-radius: 6px;
+}
+
+/* TITULOS */
+h2 {
+    color: #39ff14;
+    font-size: 25px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 10px;
+}
+
+/* IMAGEN DEL PRODUCTO */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border: 2px solid #39ff14;
+    border-radius: 6px;
+}
+
+/* LISTAS */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* INFORMACION DE CONTACTO */
+#contacto {
+    background-color: #292929;
+    border-left: 4px solid #39ff14;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #101010;
+    text-align: center;
+    padding: 25px;
+    color: #aaaaaa;
+    border-top: 2px solid #39ff14;
+}
+
+/* ADAPTACION PARA CELULARES */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    main {
+        padding: 15px 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+}

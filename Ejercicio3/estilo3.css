@@ -1,0 +1,172 @@
+/* CONFIGURACION GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #101010;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 3px solid #e50914;
+}
+
+h1 {
+    color: #e50914;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+/* NAVEGACION */
+nav {
+    background-color: #242424;
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #444444;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 22px;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    background-color: #202020;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+}
+
+/* TITULOS DE SECCIONES */
+h2 {
+    color: #e50914;
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #444444;
+}
+
+/* PARRAFOS */
+p {
+    margin-bottom: 15px;
+}
+
+/* IMAGEN */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border: 3px solid #444444;
+    border-radius: 5px;
+}
+
+/* LISTAS */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #292929;
+}
+
+th {
+    background-color: #e50914;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 13px;
+    text-align: center;
+    border: 1px solid #444444;
+}
+
+tr:nth-child(even) {
+    background-color: #353535;
+}
+
+/* CONTACTO */
+#contacto {
+    background-color: #292929;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #101010;
+    text-align: center;
+    padding: 25px;
+    color: #bbbbbb;
+    border-top: 3px solid #e50914;
+}
+
+/* DISEÑO RESPONSIVE */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        padding: 12px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 15px 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px 5px;
+    }
+}

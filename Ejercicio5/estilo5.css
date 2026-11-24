@@ -1,0 +1,127 @@
+/* CONFIGURACION GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf1f8;
+    color: #333333;
+    line-height: 1.6;
+    padding: 30px 15px;
+}
+
+/* TITULO PRINCIPAL */
+h1 {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    background-color: #24558a;
+    color: white;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+/* DESCRIPCION */
+body > p {
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+/* FORMULARIO */
+form {
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+}
+
+/* ETIQUETAS */
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #24558a;
+}
+
+/* CAMPOS DE TEXTO */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #c5d1df;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* OPCIONES */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 10px 5px 15px 0;
+}
+
+/* COMENTARIOS */
+textarea {
+    resize: vertical;
+}
+
+/* BOTONES */
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+}
+
+input[type="submit"] {
+    background-color: #24558a;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #dddddd;
+    color: #333333;
+}
+
+/* EFECTOS DE LOS BOTONES */
+input[type="submit"]:hover {
+    background-color: #173d66;
+}
+
+input[type="reset"]:hover {
+    background-color: #bbbbbb;
+}
+
+/* ADAPTACION PARA CELULARES */
+@media (max-width: 600px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 20px 10px;
+    }
+
+    form {
+        padding: 20px 15px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin: 8px 0;
+    }
+}
