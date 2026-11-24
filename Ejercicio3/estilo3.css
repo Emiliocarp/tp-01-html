@@ -1,4 +1,4 @@
-/* CONFIGURACION GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* ENCABEZADO */
+
 header {
     background-color: #101010;
     padding: 40px 20px;
@@ -27,7 +27,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* NAVEGACION */
+
 nav {
     background-color: #242424;
     padding: 18px;
@@ -46,7 +46,7 @@ nav a:hover {
     color: #e50914;
 }
 
-/* CONTENIDO PRINCIPAL */
+
 main {
     max-width: 1100px;
     margin: auto;
@@ -61,7 +61,7 @@ section {
     border: 1px solid #333333;
 }
 
-/* TITULOS DE SECCIONES */
+
 h2 {
     color: #e50914;
     font-size: 26px;
@@ -70,12 +70,12 @@ h2 {
     border-bottom: 2px solid #444444;
 }
 
-/* PARRAFOS */
+
 p {
     margin-bottom: 15px;
 }
 
-/* IMAGEN */
+
 img {
     display: block;
     max-width: 100%;
@@ -85,7 +85,7 @@ img {
     border-radius: 5px;
 }
 
-/* LISTAS */
+
 ul {
     padding-left: 25px;
 }
@@ -94,7 +94,7 @@ li {
     margin-bottom: 10px;
 }
 
-/* TABLAS */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -119,12 +119,12 @@ tr:nth-child(even) {
     background-color: #353535;
 }
 
-/* CONTACTO */
+
 #contacto {
     background-color: #292929;
 }
 
-/* PIE DE PAGINA */
+
 footer {
     background-color: #101010;
     text-align: center;
@@ -133,7 +133,7 @@ footer {
     border-top: 3px solid #e50914;
 }
 
-/* DISEÑO RESPONSIVE */
+
 @media (max-width: 600px) {
 
     h1 {
